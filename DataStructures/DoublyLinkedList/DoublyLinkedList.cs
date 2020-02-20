@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.Http.Headers;
 
 namespace DoublyLinkedList
 {
     public class DoublyLinkedList<T>: IEnumerable<LinkedListNode<T>>,ICollection<T>
     {
-        public T Head { get; private set; }
-        public T Tail { get; private set; }
+        public DoublyLinkedListNode<T> Head { get; private set; }
+        public DoublyLinkedListNode<T> Tail { get; private set; }
 
         public int Count => throw new NotImplementedException();
 
@@ -21,7 +20,7 @@ namespace DoublyLinkedList
 
         public void AddFirst(DoublyLinkedListNode<T> node)
         {
-           T temp = Head;
+           DoublyLinkedListNode<T> temp = Head;
         }
 
         public void Clear()
