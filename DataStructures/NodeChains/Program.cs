@@ -32,6 +32,7 @@ namespace NodeChains
             // +----+------+     +--------------+    +------------+
             middle.Next = last;
 
+            
             //now itarete over each node and print the value
             PrintList(first);
 

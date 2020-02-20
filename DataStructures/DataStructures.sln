@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NodeChains", "NodeChains\NodeChains.csproj", "{95AC0D06-C21F-4CC8-B838-5F44E6DEFF89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList1\LinkedList.csproj", "{787D52E1-570D-4E71-858D-708C0A91A999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList1\LinkedList.csproj", "{787D52E1-570D-4E71-858D-708C0A91A999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.csproj", "{98E334E3-0E9E-4757-865B-AFD14D5F8798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{787D52E1-570D-4E71-858D-708C0A91A999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787D52E1-570D-4E71-858D-708C0A91A999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787D52E1-570D-4E71-858D-708C0A91A999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E334E3-0E9E-4757-865B-AFD14D5F8798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E334E3-0E9E-4757-865B-AFD14D5F8798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E334E3-0E9E-4757-865B-AFD14D5F8798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E334E3-0E9E-4757-865B-AFD14D5F8798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{95AC0D06-C21F-4CC8-B838-5F44E6DEFF89} = {266F1915-D9B4-4B01-9450-D5325C680DE6}
 		{787D52E1-570D-4E71-858D-708C0A91A999} = {266F1915-D9B4-4B01-9450-D5325C680DE6}
+		{98E334E3-0E9E-4757-865B-AFD14D5F8798} = {266F1915-D9B4-4B01-9450-D5325C680DE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {660EB2D8-2015-4E40-8042-8038FB31B566}

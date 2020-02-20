@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LinkedList
+﻿ namespace LinkedList
 {
     /// <summary>
     /// A node in the LinkedList
