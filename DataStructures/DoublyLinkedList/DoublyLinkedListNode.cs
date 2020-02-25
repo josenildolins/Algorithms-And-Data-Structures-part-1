@@ -23,11 +23,11 @@ namespace DoublyLinkedList
         /// <summary>
         /// The Next node in the linked list (null if last node)
         /// </summary>
-        public T Next { get; set; }
+        public DoublyLinkedListNode<T> Next { get; set; }
 
         /// <summary>
         /// The previous node in the linked list (null if first node)
         /// </summary>
-        public T Previous { get; set; }
+        public DoublyLinkedListNode<T> Previous { get; set; }
     }
 }
