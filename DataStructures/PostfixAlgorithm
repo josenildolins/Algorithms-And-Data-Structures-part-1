@@ -1,0 +1,14 @@
+Postfix notation as also known as reverse 
+polish Notation.
+The operators folows operands.
+
+
+foreach token
+	if  token is integer
+		push token
+	else if token is operator
+		pop right-side value
+		pop left-side value
+		evaluate
+		push result
+next
