@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{57EF60BE-EBFE-4B91-8E8E-55670826382C}</ProjectGuid>
+    <ProjectGuid>{51C4D3A8-67C9-4F07-9300-9AAEB151351B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Queue.Array</RootNamespace>
-    <AssemblyName>Queue.Array</AssemblyName>
+    <RootNamespace>Queue.list</RootNamespace>
+    <AssemblyName>Queue.list</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
