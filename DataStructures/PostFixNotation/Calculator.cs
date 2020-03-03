@@ -1,4 +1,7 @@
-﻿namespace PostFixNotation
+﻿using System;
+using System.Collections.Generic;
+
+namespace PostFixNotation
 {
     class Calculator
     {

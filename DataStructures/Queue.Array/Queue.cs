@@ -2,20 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 
-
 namespace Queue.Array
 {
+
     /// <summary>
     /// A first In First Out collection
     /// </summary>
     /// <typeparam name="T">The type of data stored in the collection</typeparam>
     public class Queue<T> : IEnumerable<T>
     {
-        T[]_items = new T[0];
+        T[] _items = new T[0];
 
         // The number of items in the queue
         private int _size = 0;
-        
+
         // The index of the first (oldest) item in the queue
         private int _head = 0;
 
@@ -82,7 +82,7 @@ namespace Queue.Array
             }
             // Now we have a properly sized array and can focus on wrapping issues.
             // if _tail is at the end of the array we need to wrap around
-            if (_tail == _items.Length -1)
+            if (_tail == _items.Length - 1)
             {
                 _tail = 0;
             }
@@ -193,13 +193,18 @@ namespace Queue.Array
             }
         }
 
-        /// <summary>
-        /// Returns an enumerator that enumerates the queue
-        /// </summary>
-        /// <returns></returns>
+
+        ///// <summary>
+        ///// Returns an enumerator that enumerates the queue
+        ///// </summary>
+        ///// <returns></returns>
+        //IEnumerator IEnumerable.GetEnumerator()
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
         }
+
+        
     }
 }
+
